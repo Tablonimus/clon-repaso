@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+nav {
+  background-color: #ffe701;
+}
+#logo {
+  height: 50px;
+  width: 200px;
+  object-fit: contain;
+}
+
+main {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #1b1b1b,
+    #2e2e2e,
+    #444444,
+    #5a5a5a,
+    #6f6f6f,
+    #848484,
+    #9a9a9a,
+    #b2b2b2,
+    #cbcbcb,
+    #e5e5e5,
+    #ffffff
+  );
+}
